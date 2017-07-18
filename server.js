@@ -6,7 +6,7 @@ const morganjson      = require('morgan-json');
 const apiUsers        = require('./api/users'); //Endpoints relacionados al User model
 
 const app = express();
-const db  = levelup('./data/users', {valueEncoding: 'json'});
+const db  = levelup('./api/users', {valueEncoding: 'json'});
 
 const format = morganjson({
   short: ':method :url :status',
