@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "level": "^1.7.0",
     "leveldown": "^1.7.2",
     "levelup": "^1.3.8",
